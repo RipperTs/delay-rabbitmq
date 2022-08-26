@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: delay-rabbitmq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    # 路由失败回调
+    publisher-returns: true
+    publisher-confirms: true
+
